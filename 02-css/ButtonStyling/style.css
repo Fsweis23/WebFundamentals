@@ -1,0 +1,31 @@
+button{
+    display: block;
+    margin-bottom: 20px;
+}
+
+#first-btn{
+    background-color: white;
+    color: aquamarine;
+    font-size: 40px;
+    height: 60px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+#round-btn{
+    background-color: aquamarine;
+    color: white;
+    font-size: 50px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+#last-btn{
+    background-color: blue;
+    color: white;
+    font-size: 40px;
+    height: 60px;
+    width: 350px;
+    box-shadow: 10px 10px 10px black;
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: linear-gradient(to bottom, gray, white, white);
+    height: 100vh;
+    /* display: flex;
+    justify-content: center; */
+}
+
+#container{
+    height: 100%;
+    /* border: 6px solid red; */
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#cover-photo{
+    height: 700px;
+    /* border: 3px solid black; */
+    background: url(./images/treeRoots.webp);
+    background-size: cover;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+#cover-photo>button{
+    padding: 8px;
+    font-weight: 700;
+}
+
+#cover-photo>img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px double white;
+    background-color: blue;
+
+    position: relative;
+    top: 120px;
+    left: 50px;
+}

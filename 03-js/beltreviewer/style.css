@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px 30px;
+}
+
+#header{
+    /* height: 100px; */
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+#header img{
+    height: 75px;
+}
+
+#header-left{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+}
+
+#header-right{
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+}
+
+#header-right>a{
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+    gap: 20px;
+}
+
+h1{
+    font-size: 48px;
+    font-family: cursive;
+}
+
+#search-icon{
+    height: 20px;
+    position: relative;
+    right: 75px;
+    top: 5px;
+}
+
+#nav-bar{
+    display: flex;
+    list-style: none;
+    font-size: 24px;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    padding: 10px 0px;
+}
+
+#nav-bar input{
+    padding-left: 5px;
+    width: 240px;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+#nav-bar a{
+    color: black;
+}
+
+#slogan{
+    text-align: center;
+    /* border: 2px solid red; */
+    font-size: 40px;
+    font-style: italic;
+    padding: 10px;
+}
+
+#player-row{
+    border: 2px solid red;
+    /* height: 200px; */
+    background-color: coral;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+}
+
+.player>img{
+    height: 140px;
+}
+
+.player{
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    gap: 20px;
+}
+
+#col-left{
+    flex: 1;
+}
+
+#col-right{
+    flex: 1.8;
+    display: flex;
+}
+
+#try-now-container{
+    height: 100px;
+    background-color: coral;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    gap: 20px;
+    padding: 20px;
+    font-weight: 700;
+}
+
+#try-now-container >img{
+    height: 50px;
+    width: 100px;
+}
+
+#reggie{
+    width: 100%;
+    margin-top: 20px;
+    height: 200px;
+}
+
+#steph-shooting{
+    height: 320px;
+    width: 280px;
+}
+
+#learn-container{
+    height: 320px;
+    background-color: coral;
+    flex: 1.5;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px 10px;
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+#learn-container> button{
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px black;
+    background-color: bisque;
+}
+
+#terms{
+    background-color: gray;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#terms>h5{
+    text-align: center;
+}
+
+#cookie-box{
+    background-color: burlywood;
+    /* height: 200px; */
+    position: fixed;
+    bottom: 20px;
+    width: 94.5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 24px;
+    padding: 20px;
+}
+
+#cookie-box img{
+    height: 120px;
+}
+
+#cookie-box>button{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+}

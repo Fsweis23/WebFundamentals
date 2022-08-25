@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#nav-bar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+
+
+    padding: 10px 140px;
+    margin-bottom: 30px;
+}
+
+#nav-left{
+    /* border: 3px solid black; */
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+    font-size: 25px;
+}
+
+#sign-out-btn{
+    background-color: rgb(22,162,184);
+    padding: 8px 18px;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+
+#nav-left a, h1{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* code for under the nav bar start here */
+.flex-container{
+    /* height: 1000px;
+    background-color: grey; */
+    display: flex;
+    gap: 20px;
+    /* border: 3px solid blue; */
+    padding: 0px 140px;
+}
+
+#col-left, #col-right{
+    /* background-color: pink; */
+    /* height: 800px; */
+    /* border: 3px solid red; */
+}
+
+#col-left{
+    /* width: 500px; */
+    flex: 2;
+}
+
+#col-right{
+    /* width: 300px; */
+    flex: 1;
+}
+
+#user-card{
+    /* border: 3px solid red; */
+    /* height: 500px; */
+    margin-bottom: 30px;
+}
+
+#user-card-top{
+    /* height: 150px; */
+    /* border: 2px solid black; */
+    background-color: aqua;
+}
+
+#user-card-top > img{
+    /* height: 150px; */
+    border-radius: 50%;
+    border: 5px double white;
+    background-color: black;
+
+    position: relative;
+    top: 75px;
+    left: 40px;
+}
+
+#user-card-body{
+    /* height: 350px; */
+    border: 1px solid black;
+    border-top: none;
+    background-color: white;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+#user-card-body>h2{
+    font-size: 40px;
+    margin-bottom: 14px;
+}
+
+#location{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#location>img{
+    height: 20px;
+}
+
+#user-card-body>p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#gear-icon{
+    height: 20px;
+}
+
+#edit{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.other-cards{
+    /* border: 2px solid blue; */
+    /* height: 400px; */
+    margin-bottom: 30px;
+}
+
+.other-card-top{
+    background-color: rgb(51,51,51);
+    color: white;
+    padding: 15px 0px 15px 20px; /* top right bottom left */
+    font-size: 20px;
+}
+
+
+#education-card-body{
+    background-color: white;
+    padding: 20px;
+    font-size: 20px;
+    border: 3px solid gray;
+    border-top: none;
+}
+
+#education-card-body>*{
+    margin-bottom: 10px;
+}
+
+.count{
+    background-color: lightgray;
+    border-radius: 50%;
+    padding: 4px 9px;
+    color: black;
+    margin-right: 5px;
+}
+
+.connection-body{
+    background-color: white;
+    /* height: 200px; */
+    padding: 20px;
+    border-top: none;
+}
+
+.accept-icon, .close-icon{
+    height: 40px;
+    border-radius: 50%;
+}
+
+.accept-icon{
+    margin-left: 30px;
+}
+
+.thumbnail{
+    height: 45px;
+    border-radius: 50%;
+}
+
+.other-person{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#view-more{
+    background-color: white;
+    padding: 20px;
+    border: 3px solid gray;
+    font-size: 20px;
+    border-top: none;
+}

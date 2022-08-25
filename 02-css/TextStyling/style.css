@@ -1,0 +1,27 @@
+h1{
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    font-style: italic;
+}
+
+#title{
+    color: aqua;
+}
+
+.completed-pjt{
+    color: white;
+    background-color: purple;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+.contact-us{
+    color: white;
+    background-color: skyblue;
+    font-size: 20px;
+    font-style: italic;
+    text-align: right;
+    text-decoration: underline;
+}

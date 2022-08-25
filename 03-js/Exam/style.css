@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: lightgray; */
+    padding: 0px 20px;
+}
+
+#header{
+    /* height: 100px; */
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#com-logo{
+    background-color: turquoise;
+}
+
+#header>h1{
+    font-size: 50px;
+}
+
+#header>input{
+    padding: 10px;
+    width: 400px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+#search-icon{
+    padding: 5px;
+    border-radius: 50%;
+    position: relative;
+    right: 95px;
+}
+
+#header>a{
+    font-size: 20px;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    right: 40px;
+    top: 5px;
+}
+
+#header img{
+    height: 50px;
+}
+
+#nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    color: black;
+    padding: 10px 0px;
+    border-bottom: 3px solid black;
+}
+
+#nav-links>li,a{
+    text-decoration: none;
+    color: black;
+}
+
+#slogan{
+    text-align: center;
+    /* border: 2px solid red; */
+    font-size: 45px;
+    padding: 10px;
+}
+
+.flex-container{
+    display: flex;
+    gap: 20px;
+}
+
+#col-left{
+    flex: 2;
+    display: flex;
+}
+
+#col-right{
+    flex: 1;
+}
+
+#aloe-container{
+    height: 50px;
+    background-color: turquoise;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+#aloe-container > img{
+    height:50px;
+    width: 100px;
+}
+
+#dis-container{
+    height: 298px;
+    background-color: turquoise;
+    color: white;
+    font-size: 40px;
+    padding: 15px;
+    text-align: center;
+    flex: 1.5;
+}
+
+#dis-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#suc-plant{
+    height: 298px;
+    flex: 1;
+}
+
+#plants-row{
+    /* border: 2px solid red; */
+    /* height: 200px; */
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    margin-top: 20px;
+}
+
+.plant>img{
+    height: 140px;
+}
+
+.plant{
+    text-align: center;
+}
+
+#cookie-box{
+    background-color: white;
+    border: 2px solid black;
+    /* height: 200px; */
+    position: fixed;
+    bottom: 20px;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 20px
+}
+
+#cookie-box>button{
+    background-color: turquoise;
+    color: white;
+    padding: 6px 10px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px black;
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    padding: 20px;
+}
+
+#header{
+    text-align: center;
+    background-color: green;
+    height: 200px;
+    width: 1012px;
+    margin-bottom: 20px;
+}
+
+#left-bar{
+    height: 300px;
+    background-color: blue;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+#main{
+    background-color: red;
+    width: 800px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.yellow-box{
+    height: 220px;
+    width: 220px;
+    background-color: yellow;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#info{
+    height: 150px;
+    width: 730px;
+    background-color: purple;
+    margin-top: 30px;
+}
